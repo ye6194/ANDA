@@ -1,4 +1,16 @@
 import React from "react";
+import { useState } from "react";
+import Slide from "./Slide";
+
+const images = [
+  "/swiper-slide/anda_swiper1.png",
+  "/swiper-slide/anda_swiper2.png",
+  "/swiper-slide/anda_swiper3.png",
+  "/swiper-slide/anda_swiper4.png",
+  "/swiper-slide/anda_swiper5.png",
+  "/swiper-slide/anda_swiper6.png",
+  "/swiper-slide/anda_swiper7.png",
+];
 
 function Main({ children }) {
   const [isClicked, setIsClicked] = useState(false);
@@ -24,6 +36,7 @@ function Main({ children }) {
       </div>
       <div id="expecting">{expectingCount}명이 기대하고 있어요!</div>
       {children}
+      <Slide images={images}></Slide>
     </main>
   );
 }

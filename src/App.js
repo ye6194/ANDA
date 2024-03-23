@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import Nav from "./components/Nav"
 import Main from "./components/Main"
-import Slide from './components/Slide';
+
 
 function App() {
   const images = [
@@ -15,8 +15,9 @@ function App() {
 
   return (
     <div className="App">
-      <Nav></Nav>
-      <Main><Slide images={images}></Slide></Main>
+      <Nav />
+      <Main />
+      {/* 메인 밖으로 슬라이드 빼내기 */}
 
     </div >
   );

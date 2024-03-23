@@ -1,10 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-// import "swiper/css/paginsation";
-import { pagination } from "swiper/css";
-// import "swiper/css/navigation";
-import { navigation } from "swiper/css";
+import "swiper/css/pagination";
+// import { pagination } from "swiper/css";
+import "swiper/css/navigation";
+// import { navigation } from "swiper/css";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
 function Slide(props) {
