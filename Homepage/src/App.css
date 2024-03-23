@@ -1,0 +1,141 @@
+/* 폰트는 "Noto Sans KR, sans-serif */
+
+nav {
+  display: flex;
+  width: 80%;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+}
+
+#menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 45px;
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../public/main_hamburger.svg");
+  background-size: 30px 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#logo {
+  width: 60px;
+  height: auto;
+  margin: 0.7%;
+}
+
+main {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  letter-spacing: -1px;
+}
+
+#p1 {
+  font-size: 20px;
+  color: #585858;
+  margin: 5px;
+}
+
+#p2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #323232;
+  margin: 5px;
+}
+
+button {
+  width: 140px;
+  height: 45px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 18px;
+}
+
+.clicked {
+  width: 140px;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid rgb(255, 122, 122);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 18px;
+}
+
+#heart {
+  width: 20px;
+  height: 20px;
+  margin-right: 13px;
+}
+
+#expecting {
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  margin-top: 10px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* */
+/* */
+/* */
+.swiper {
+  width: 78%;
+  height: 50%;
+  display: initial;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 360px;
+  height: 360px;
+  object-fit: cover;
+  justify-self: center;
+}
