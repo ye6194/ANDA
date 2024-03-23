@@ -114,9 +114,14 @@ button {
 .swiper {
   width: 78%;
   height: 50%;
+  display: initial;
 }
 
-.swiper-slide {
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-wrapper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -132,4 +137,5 @@ button {
   width: 360px;
   height: 360px;
   object-fit: cover;
+  justify-self: center;
 }
